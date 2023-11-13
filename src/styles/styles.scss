@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+$falu-red: #7D1F1C;
+$coffee: #755233;
+$bistre: #382310;
+$chamoisee: #A67950;
+$aero: #68BDE0;
+
+$primary: $falu-red;
+$grey-dark: $bistre;
+$grey-light: $chamoisee;
+$link: $aero;
+
+//$body-background-color: $coffee;
+
+@import "bulma/sass/utilities/_all";
+@import "bulma/sass/base/_all";
+@import "bulma/sass/elements/box";
+@import "bulma/sass/elements/button";
+@import "bulma/sass/elements/content";
+@import "bulma/sass/elements/container";
+@import "bulma/sass/elements/title";
+@import "bulma/sass/elements/image";
+@import "bulma/sass/elements/icon";
+//@import "bulma/sass/form/_all";
+@import "bulma/sass/components/card";
+@import "bulma/sass/components/breadcrumb";
+@import "bulma/sass/components/navbar";
+@import "bulma/sass/grid/_all";
+@import "bulma/sass/helpers/typography";
+@import "bulma/sass/layout/_all";
+
+html, body {
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+main {
+  flex:1;
+}
